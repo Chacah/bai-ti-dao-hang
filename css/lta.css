@@ -1,0 +1,233 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin:0;
+	padding:0
+}
+body {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	background-color:#dceced;
+}
+a {
+	text-decoration:none;
+}
+input {
+	border:0;
+}
+ul {
+	list-style:none;
+}
+.clearfloat {
+	clear:both;
+}
+a:link {
+	color:#000;
+}
+#layout {
+	margin:0 auto;
+	width:1010px;
+	margin:0 auto;
+	position:relative;
+}
+#search {
+	border:1px solid #bad8d8;
+	height:23px;
+	width:150px;
+	position:absolute;
+	left:641px;
+	top: 41px;
+}
+#button {
+	height:25px;
+	width:25px;
+	position:absolute;
+	left:790px;
+	top: 41px;
+}
+#banner {
+	width:841px;
+	height:95px;
+	float:left;
+	position:relative;
+	background-color:#c6e7e7;
+}
+#header {
+	width:841px;
+	height:22px;
+	float:left;
+	background-color:#bad8d8;
+}
+#header p {
+	font-size:14px;
+	line-height:22px;
+	height:22px;
+	float:left;
+}
+#header span {
+	font-size:14px;
+	line-height:22px;
+	height:22px;
+	float:right;
+	padding-right:20px;
+}
+#logo {
+	background:url(../images/btsw_13.gif);
+	width:227px;
+	height:69px;
+	position:absolute;
+	left: 7px;
+	top: 22px;
+}
+#loginbar {
+	float:left;
+	width:840px;
+	height:25px;
+	background-color:#dceced;
+	position:relative;
+	border:1px solid #FFF;
+}
+#login {
+	position:absolute;
+	left: 526px;
+	top: 5px;
+}
+#registered {
+	position:absolute;
+	left: 628px;
+	top: 5px;
+}
+#contenta {
+	background:url(../images/ltxl_03.gif) no-repeat;
+	width:840px;
+	height:130px;
+	float:left;
+	border-left:#FFF 1px solid;
+	border-right:#FFF 1px solid;
+}
+#contentb {
+	border:1px #FFF solid;
+	width:840px;
+	height:50px;
+	float:left;
+}
+#contentb p {
+	font-size:14px;
+	font-weight:bold;
+	padding:10px 0px 10px 10px;
+}
+#contentc {
+	height:80px;
+	width:842px;
+	float:left;
+	background-color:#FFF;
+}
+#contentm {
+	width:842px;
+	float:left;
+	background-color:#FFF;
+	border:1px solid #FFF;
+}
+#contentl {
+	float:left;
+	width:842px;
+	background-color:#FFF;
+	border:1px #FFF solid;
+}
+#contentn {
+	float:left;
+	width:844px;
+	height:115px;
+	background-color:#FFF;
+}
+#contento {
+	float:left;
+	width:842px;
+	background-color:#FFF;
+	border:1px #FFF solid;
+}
+#gga {
+	width:150px;
+	float:right;
+	height:250px;
+	background-color:#FFFFFF;
+	position:absolute;
+	left: 858px;
+	top: 5px;
+}
+#ggb {
+	width:150px;
+	float:right;
+	height:160px;
+	background-color:#FFFFFF;
+	position:absolute;
+	left: 858px;
+	top: 268px;
+}
+#ggc {
+	width:150px;
+	float:right;
+	height:300px;
+	background-color:#FFFFFF;
+	position:absolute;
+	left: 858px;
+	top: 764px;
+}
+#lma {
+	height:300px;
+	width:150px;
+	position:absolute;
+	left: 858px;
+	top: 448px;
+	background-color:#ffffcc
+}
+#lma h1 {
+	background: url(../images/lma_03.gif);
+	height:23px;
+	width:150px;
+	text-indent:2em;
+	font-size:14px;
+	font-weight: normal;
+	line-height:23px;
+	color:#FFF;
+}
+#footer {
+	height:182px;
+	position:relative;
+	float:left;
+	width:842px;
+	background-color:#c0dfe0;
+}
+#logof {
+	background:url(../images/btsw_13.gif);
+	width:227px;
+	height:68px;
+	position:absolute;
+	left: 286px;
+	top: 26px;
+}
+#footer .ft1 {
+	width:495px;
+	font-size:14px;
+	color:#06c;
+	position:absolute;
+	left: 164px;
+	top: 127px;
+}
+#footer .ft2 {
+	width:710px;
+	font-size:14px;
+	color:#06c;
+	position:absolute;
+	left: 48px;
+	top: 154px;
+}
+#layout #contentl table tr td table tr td table tr td table tr td {
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 1.5em;
+}
+#layout #contenta table tr td table tr td {
+	font-size: 14px;
+	text-indent: 1em;
+}

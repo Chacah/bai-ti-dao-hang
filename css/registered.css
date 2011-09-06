@@ -1,0 +1,232 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin:0;
+	padding:0
+}
+body {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	background-color:#edf2f6;
+}
+input {
+	border:0;
+}
+a {
+	text-decoration:none;
+}
+#search{
+	background: url(../images/baitishengwu_10.gif);
+	height:24px;
+	width:154px;
+	text-indent:2em;
+}
+#button{
+	height:24px;
+	width:29px;
+	background:url(../images/baitishengwu_11.gif);
+}
+ul {
+	list-style:none;
+}
+.clearfloat {
+	clear:both;
+}
+a:link {
+	color:#000;
+}
+#header {
+	background: url(../images/baitishengwub_02.gif);
+	height:124px;
+	
+}
+
+#menu li {
+	float:left;
+}
+#menu li a {
+	display:block;
+}
+#a {
+	background:url(../images/baitishengwu_05.gif) left center no-repeat;
+	height:28px;
+	width:57px;
+	text-indent:-9999px;
+}
+#b {
+	background:url(../images/baitishengwu_05.gif) -57px center no-repeat;
+	height:28px;
+	width:93px;
+	text-indent:-9999px;
+}
+#c {
+	background:url(../images/baitishengwu_05.gif) -150px center no-repeat;
+	height:28px;
+	width:93px;
+	text-indent:-9999px;
+}
+#d {
+	background:url(../images/baitishengwu_05.gif) -243px center no-repeat;
+	height:28px;
+	width:93px;
+	text-indent:-9999px;
+}
+#e {
+	background:url(../images/baitishengwu_05.gif) -336px center no-repeat;
+	height:28px;
+	width:93px;
+	text-indent:-9999px;
+}
+#f {
+	background:url(../images/baitishengwu_05.gif) -429px center no-repeat;
+	height:28px;
+	width:93px;
+	text-indent:-9999px;
+}
+#logo {
+	background:url(../images/baitishengwu_02.gif);
+	height:88px;
+	width:222px;
+	position:absolute;
+	left:0x;
+	top:0px;
+}
+#m_text {
+	
+	font-size:14px;
+	font-weight:bold;
+	color:#369;
+	
+}
+#header_son {
+	width:945px;
+	height:124px;
+	margin:0 auto;
+}
+#loginbar {
+	height:40px;
+	width:945px;
+	margin:0 auto;
+	position:relative;
+}
+#login {
+	position:absolute;
+	left:806px;
+	top:6px;
+}
+#register {
+	position:absolute;
+	left:688px;
+	top:6px;
+}
+#logintext {
+	position:absolute;
+	left:18px;
+	top:10px;
+}
+#logintext li {
+	float:left;
+	padding-left:20px;
+	font-size:14px;
+	font-weight:bold;
+}
+#content {
+	background:url(../images/regesiter_03.gif) no-repeat;
+	width:606px;
+	height:436px;
+	margin:20px auto;
+	position:relative;
+}
+#content h1 {
+	font-size:14px;
+	background:url(../images/rege_03.gif) left center no-repeat;
+	padding-left:25px;
+	position:absolute;
+	left: 24px;
+	top: 17px;
+	width: 82px;
+}
+#maincontent {
+	position:absolute;
+	left: 48px;
+	top: 44px;
+}
+#bt {
+	position:absolute;
+	left: 46px;
+	top: 380px;
+	height:31px;
+	vertical-align:middle;
+}
+#content p {
+	height:40px;
+}
+#content p label {
+	display:block;
+	width:90px;
+	float:left;
+	text-align:right;
+	padding-right:10px;
+	font-size:14px;
+	color:#039;
+	font-weight:bold;
+	height:20px;
+}
+#content p .tbox {
+	display:block;
+	height:20px;
+	width:150px;
+	border:1px solid #666;
+}
+
+
+
+#right {
+	position:absolute;
+	font-size:18px;
+	font-weight:bold;
+	text-align:center;
+	left: 393px;
+	top: 96px;
+}
+#yzm {
+	position:absolute;
+	left: 209px;
+	top: 319px;
+}
+#footer {
+	height:182px;
+	position:relative;
+	margin:0 auto;
+	width:925px;
+}
+#logof {
+	background:url(../images/btsw_13.gif);
+	width:227px;
+	height:68px;
+	position:absolute;
+	left: 335px;
+	top: 27px;
+}
+#footer .ft1 {
+	width:495px;
+	font-size:14px;
+	color:#06c;
+	position:absolute;
+	left: 231px;
+	top: 128px;
+}
+#footer .ft2 {
+	width:710px;
+	font-size:14px;
+	color:#06c;
+	position:absolute;
+	left: 114px;
+	top: 153px;
+}
+#footerout {
+	background:url(../images/btsw_66.gif);
+	height:182px;
+	margin:0 auto;
+}

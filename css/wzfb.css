@@ -1,0 +1,157 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin:0;
+	padding:0
+}
+body {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px; background-color:#edf2f6;
+	 
+}
+a{ text-decoration:none;}
+input{ border:0;}
+#search{
+	background: url(../images/baitishengwu_10.gif);
+	height:24px;
+	width:154px;
+	text-indent:2em;
+}
+#button{
+	height:24px;
+	width:29px;
+	background:url(../images/baitishengwu_11.gif);
+}
+ul {
+	list-style:none;
+}
+.clearfloat {
+	clear:both;
+}
+a:link {
+	color:#000;
+}
+#header {
+	background: url(../images/baitishengwub_02.gif); height:124px; 
+	
+}
+
+#menu li {
+	float:left;
+}
+#menu li a {
+	display:block;
+}
+#a {
+	background:url(../images/baitishengwu_05.gif) left center no-repeat;
+	height:28px;
+	width:57px;
+	text-indent:-9999px;
+}
+#b {
+	background:url(../images/baitishengwu_05.gif) -57px center no-repeat;
+	height:28px;
+	width:93px;
+	text-indent:-9999px;
+}
+#c {
+	background:url(../images/baitishengwu_05.gif) -150px center no-repeat;
+	height:28px;
+	width:93px;
+	text-indent:-9999px;
+}
+#d {
+	background:url(../images/baitishengwu_05.gif) -243px center no-repeat;
+	height:28px;
+	width:93px;
+	text-indent:-9999px;
+}
+#e {
+	background:url(../images/baitishengwu_05.gif) -336px center no-repeat;
+	height:28px;
+	width:93px;
+	text-indent:-9999px;
+}
+#f {
+	background:url(../images/baitishengwu_05.gif) -429px center no-repeat;
+	height:28px;
+	width:93px;
+	text-indent:-9999px;
+}
+
+#m_text {
+	
+	font-size:14px;
+	font-weight:bold;
+	color:#369;
+	
+}
+#header_son{ width:945px; height:124px; margin:0 auto;}
+#loginbar{ height:40px; width:945px; margin:0 auto; position:relative;}
+#login{
+	position:absolute;
+	left:806px;
+	top:6px;
+}
+#register{
+	position:absolute;
+	left:688px;
+	top:6px;
+}
+#logintext{
+	position:absolute;
+	left:18px;
+	top:10px;
+}
+#logintext li{ float:left; padding-left:20px; font-size:14px; font-weight:bold;}
+
+#content{ background: url(../images/wz_03.gif) repeat-y; width:976px; margin:0 auto 20px auto;}
+#wztitle{ height:1000px; width:641px; float:left; position:relative;}
+#wztitle h1{
+	background: url(../images/wzfb_07.gif) no-repeat left top;
+	height:40px;
+	width:641px;
+	padding-top:30px; 
+	text-indent:2em;
+	color:#cc9933;
+	position:absolute;
+	left: 1px;
+	top: 20px;
+}
+
+#side{ width:260px; float:right; margin-top:20px; margin-right:10px;}
+#side_t{background:url(../images/baitishengwu_36.gif); width:260px; height:376px;  }
+#side_t h1{ padding:15px 0 30px 20px;}
+#side_t ul{ padding:15px 20px;}
+#side_t ul li{ line-height:30px; font-size:14px; display:block; border-bottom:1px #999 solid; text-align:center;}
+#side_b{background: url(../images/lm_10.gif); width:260px; height:312px; margin-top:10px;}
+#side_b h1{padding:15px 0 30px 20px; color:#F90;}
+#side_b ul li{ height:40px; font-size:16px; display:block; font-weight:bold; background: url(../images/baitishengwu_46.gif) 10px center no-repeat; padding:25px 0px 10px 50px;}
+
+#footer{  height:182px; position:relative; margin:0 auto; width:925px;}
+#logof{
+	background:url(../images/btsw_13.gif);
+	width:227px;
+	height:68px;
+	position:absolute;
+	left: 335px;
+	top: 27px;
+	
+}
+#footer .ft1{
+	width:495px;
+	font-size:14px;
+	color:#06c;
+	position:absolute;
+	left: 231px;
+	top: 128px;
+}
+#footer .ft2{
+	width:710px;
+	font-size:14px;
+	color:#06c;
+	position:absolute;
+	left: 114px;
+	top: 153px;
+}
+#footerout{ background: url(../images/wzf_11.gif); height:182px; margin:0 auto;}

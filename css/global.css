@@ -1,0 +1,54 @@
+/* CSS Document */
+
+*{ margin:0px; padding:0px; font-size:12px;}
+.left{ float:left;}
+.right{ float:right;}
+a img{ border:none;}
+.nobg{ background:none;}
+.clear{ clear:both;}
+body{ background:#D4F5B7 url(../images/bg.gif) repeat-x;}
+.wrap{ width:920px; margin:0px auto;}
+	#logo{ display:block; width:250px; height:60px; float:left; text-decoration:none; background:url(../images/logo.png) no-repeat left top;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='logo.png' ,sizingMethod='crop');_background:url(../images/logo.gif);  margin-top:12px;}
+	#top{ height:34px; line-height:34px; width:880px; background:url(../images/top_bg.png) no-repeat left top;_width:920px;_background:url(../images/top_bg.gif) no-repeat left top;margin-top:0px;padding:0px 20px;}
+		#top a{ color:#000000; text-decoration:none;}
+	#header{ margin-top:0px; height:78px; _height:73px; width:100%;}
+		#header .right{ width:660px; height:73px; _height:80px;}
+	#search{ width:100%; height:100px; margin:0px auto 0 auto; background:url(../images/search_midd.gif) repeat-x left top;}
+		#search .left{  padding-top:5px; overflow:hidden;  float:left;}
+		#sleft{ width:180px; height:80px; overflow:hidden; float:left;}
+			#weather{ height:60px;_height:65px;width:100%; float:left; clear:both;}
+			#weather img{ float:left; margin:5px 10px 17px 20px; float:left;}
+			#weather p{ margin:0px; padding:0px; font-size:12px; line-height:20px;}
+			#skin{ width:140px; margin:0px auto; height:20px; }
+			#skin a{ display:inline; line-height:10px;margin:0;padding:0; width:10px; height:10px; float:left; margin-left:8px; overflow:hidden;text-decoration:none; border:1px solid #333333;}
+			#skin a.focus{ border:1px solid #990000;}
+		.search_form{ width:405px; height:78px; float:left;}
+			.search_form ul{ list-style:none; width:100%; height:30px; overflow:hidden; margin:12px 0 6px 0;}
+			.search_form ul li{ float:left; line-height:24px; height:30px; font-size:14px; background:url(../images/split.gif) no-repeat right top; margin-right:-2px;}
+			.search_form ul li a{ display:block; height:30px;text-decoration:none;_width:50px; white-space:nowrap;}
+			.search_form ul li a span{ display:block; height:30px; padding:0px 10px 0px 10px; font-size:14px; text-decoration:none; color:#000000;  line-height:30px; cursor:pointer;}
+			
+			.search_form ul li.focus{ background:url(../images/search_tip.gif) no-repeat center center}
+			.search_form ul li.focus a{ display:block; height:30px; background:url(../images/search_tip_left.gif) no-repeat 0px 1px;text-decoration:none;}
+			.search_form ul li.focus a span{ display:block; height:30px;background:url(../images/search_tip_right.gif) no-repeat right 1px; padding:0px 10px 0px 10px; font-size:14px; text-decoration:none; color:#FFFFFF;  line-height:30px;}
+			.search_form div{ width:100%; height:29px; overflow:hidden; border:1px solid #CCC; border-bottom-color:#999; border-right-color:#999; background:#FFFFFF;}
+			.search_form div .txt{ border:none; width:420px; float:left; height:20px; line-height:20px; padding:5px; font-size:14px;}
+			.search_form div .btn{ float:right;}
+		#search .right{ width:140px; height:72px; overflow:hidden; float:right; padding:14px 20px 14px 0;}
+			#search .right p{ line-height:24px;}
+			#search .right p a{ text-decoration:none; color:#000000;}
+	#bottom{ width:100%; line-height:24px; text-align:center; padding:10px 0 10px;}
+	#bottom p,#bottom a{ color:#656565; text-decora5ion:none;}
+	
+	.catlist{ width:860px; margin:0px auto; margin-top:10px;}
+	.catlist dt{ background:url(../images/h1bg.gif) no-repeat left bottom; height:30px; margin:5px auto; float:left; width:100%; line-height:30px; font-size:14px; font-weight:bold; color:#383838; text-indent:5px;}
+	.catlist dd{ margin-top:10px; overflow:hidden; width:100%; float:left; clear:both;}
+	.catul{ overflow:hidden; width:100%;background:url(../images/tab_bg2.gif) repeat left top;margin-top:-2px;float:left; clear:both;  }
+		.catlist dd ul{ list-style:none; width:100%; }
+			.catlist dd ul li{ float:left; line-height:29px; width:20%; height:29px; overflow:hidden; text-align:left;}
+				.catlist dd ul li a{font-size:14px; white-space:nowrap; text-decoration:none; color:#0070C6;}
+	.pos{ line-height:20px; margin-top:10px; font-size:14px; }
+	.pos a{ font-size:14px; color:#0A58D8;}
+
+			

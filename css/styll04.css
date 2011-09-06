@@ -1,0 +1,6 @@
+/* CSS Document */
+
+#search{ width:100%; height:80px; margin:0 auto; background:url(../images/search_bg04.gif) repeat-x left top;}
+.search_form ul li.focus{ background:url(../images/search_tip04.gif) no-repeat center center}
+.search_form ul li.focus a{ display:block; height:30px; background:url(../images/search_tip_left04.gif) no-repeat 0px 1px;text-decoration:none;}
+.search_form ul li.focus a span{ display:block; height:30px;background:url(../images/search_tip_right04.gif) no-repeat right 1px; padding:0px 10px 0px 10px; font-size:14px; text-decoration:none; color:#FFFFFF;  line-height:30px;}

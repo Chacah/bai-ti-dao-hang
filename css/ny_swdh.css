@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin:0;
+	padding:0
+}
+a{ text-decoration:none;}
+body {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	background: url(../images/bg_02.gif) repeat-x top left;
+}
+ul{ list-style:none;}
+.clearfloat {
+	clear:both;
+}
+a:link{ color:#000;}
+#header {
+	background: url(../images/btswb_04.gif);
+	height:35px;
+	width:924px;
+	margin:0 auto;
+	position:relative;
+}
+#header p {
+	color:#FFF;
+	position:absolute;
+	left: 760px;
+	top: 11px;
+}
+#banner {
+	height:80px;
+	width:924px;
+	 margin:0 auto;
+	 position:relative;
+
+}
+#logo {
+	background:url(../images/btsw_13.gif);
+	height:68px;
+	width:227px;
+	position:absolute;
+	left: 3px;
+	top: 6px;
+}
+#ad{
+	width:465px;
+	height:68px;
+	background:#FFF;
+	border:1px solid #999;
+	position:absolute;
+	left: 443px;
+	top: 5px;
+}
+#header_son{ background:url(../images/btswb_07.gif); width:926px; height:76px; margin:0 auto; position:relative;}
+#weathers{
+	background:url(../images/btsw_21.gif);
+	width:251px;
+	height:59px;
+	position:absolute;
+	left: 11px;
+	top: 10px;
+}
+#baidu{
+	background:url(../images/btsw_17.gif);
+	width:140px;
+	height:45px;
+	position:absolute;
+	left: 283px;
+	top: 16px;
+}
+#baidubb{
+	position:absolute;
+	left: 602px;
+	top: 39px;
+	height:25px;
+	
+}
+#search{
+	position:absolute;
+	left: 431px;
+	top: 39px;
+	height:20px; 
+	vertical-align:middle;
+	font-size:14px;
+}
+#more{
+	position:absolute;
+	left: 879px;
+	top: 8px;
+}

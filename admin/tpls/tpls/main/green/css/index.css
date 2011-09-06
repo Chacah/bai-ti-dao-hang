@@ -1,0 +1,171 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin:0;
+	padding:0
+}
+body {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px; background-color:#edf2f6;
+	 
+}
+a{ text-decoration:none;}
+input{ border:0;}
+#search{
+	background: url(../images/baitishengwu_10.gif);
+	height:24px;
+	width:154px;
+	text-indent:2em;
+}
+#button{
+	height:24px;
+	width:29px;
+	background:url(../images/baitishengwu_11.gif);
+}
+ul {
+	list-style:none;
+}
+.clearfloat {
+	clear:both;
+}
+a:link {
+	color:#000;
+}
+#header {
+	background: url(../images/baitishengwub_02.gif); height:124px;
+	
+}
+
+#menu li {
+	float:left;
+}
+#menu li a {
+	display:block;
+}
+#a {
+	background:url(../images/baitishengwu_05.gif) left center no-repeat;
+	height:28px;
+	width:57px;
+	text-indent:-9999px;
+}
+#b {
+	background:url(../images/baitishengwu_05.gif) -57px center no-repeat;
+	height:28px;
+	width:93px;
+	text-indent:-9999px;
+}
+#c {
+	background:url(../images/baitishengwu_05.gif) -150px center no-repeat;
+	height:28px;
+	width:93px;
+	text-indent:-9999px;
+}
+#d {
+	background:url(../images/baitishengwu_05.gif) -243px center no-repeat;
+	height:28px;
+	width:93px;
+	text-indent:-9999px;
+}
+#e {
+	background:url(../images/baitishengwu_05.gif) -336px center no-repeat;
+	height:28px;
+	width:93px;
+	text-indent:-9999px;
+}
+#f {
+	background:url(../images/baitishengwu_05.gif) -429px center no-repeat;
+	height:28px;
+	width:93px;
+	text-indent:-9999px;
+}
+
+#m_text {
+	
+	font-size:14px;
+	font-weight:bold;
+	color:#369;
+
+}
+#header_son{ width:945px; height:124px; margin:0 auto;}
+#loginbar{ height:40px; width:945px; margin:0 auto; position:relative;}
+#login{
+	position:absolute;
+	left:806px;
+	top:6px;
+}
+#register{
+	position:absolute;
+	left:688px;
+	top:6px;
+}
+#logintext{
+	position:absolute;
+	left:18px;
+	top:10px;
+}
+#logintext li{ float:left; padding-left:20px; font-size:14px; font-weight:bold;}
+#content{ width:945px; margin:0 auto;height:165px;}
+#content_l{ background:url(../images/baitishengwu_22.gif); height:165px; width:468px; float:left;}
+#content_r{ background:url(../images/baitishengwu_22.gif); height:165px; width:468px; float:left; display:inline-block; margin-left:5px;}
+#content_son{ width:950px; margin:20px auto; height:140px;}
+#content_sonl{ width:680px; height:140px; float:left; background-color:#FFF;}
+#content_sonr{ width:240px; height:140px; float:left; background-color:#FFF; display:inline-block; margin-left:10px;}
+#maincontenta{width:950px; margin:20px auto;}
+#lanmu{ width:680px; float:left;}
+#lanmu_l table{ width:332px; float:left;}
+#lanmu_r table{ width:332px; float:right; display:inline-block;}
+table tr td {
+	font-size: 14px;
+}
+#lanmu_son{ width:680px; height:200px; background-color:#FFF; float:left; margin-top:10px;}
+#side{ width:260px; float:right;}
+#side_t{  width:260px; height:315px;  }
+#side_t h1{ padding:15px 0 30px 20px;}
+#side_t ul{ padding:15px 20px;}
+#side_t ul li{ line-height:30px; font-size:14px; display:block; border-bottom:1px #999 solid; text-align:center;}
+#side_b{ width:260px; height:340px; margin-top:20px;}
+
+#maincontentb{ width:950px; margin:0 auto;}
+#lanmua{ width:680px; float:left;}
+#lanmub{ width:680px; float:left; margin:20px auto;}
+#lanmub_l{ width:333px; float:left;}
+#lanmub_r{ width:333px; float:right;}
+#lanmuc{ float:right; width:260px; }
+#lanmuc_one{  width:260px;  }
+#lanmuc_two{  width:260px; margin:20px auto; }
+#lanmuc_three{width:260px; background-color:#FFF; height:200px;}
+#maincontentc{ width:950px; margin:20px auto;}
+#lanmud_l { float:left;}
+#lanmud_l table ul li { line-height:30px; font-size:14px;}
+#lanmud_r{ float:right; width:260px; background-color:#FFF;} 
+#lanmue {background:url(../images/baitishengwu_80.gif); width:958px; height:545px; margin:20px auto;}
+
+
+
+#footer{  height:182px; position:relative; margin:0 auto; width:925px;}
+#logof{
+	background:url(../images/btsw_13.gif);
+	width:227px;
+	height:68px;
+	position:absolute;
+	left: 335px;
+	top: 27px;
+	
+}
+#footer .ft1{
+	width:495px;
+	font-size:14px;
+	color:#06c;
+	position:absolute;
+	left: 231px;
+	top: 128px;
+}
+#footer .ft2{
+	width:710px;
+	font-size:14px;
+	color:#06c;
+	position:absolute;
+	left: 114px;
+	top: 153px;
+}
+#footerout{ background:url(../images/btsw_66.gif); height:182px; margin:0 auto;}
