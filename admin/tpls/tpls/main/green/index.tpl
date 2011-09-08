@@ -36,23 +36,115 @@
 	src="static/js/header.js"></script></div>
 </div>
 </div>
-<div id="header_son">
-<div id="weather"><script>if(top.location == self.location){document.write('<iframe width="500" height="60" frameborder="0" scrolling="no" allowtransparency="true" src="public/widget/weather/index.html"></iframe>')} </script>
+<div id="wrap">
+
+        
+    <div id="search">
+        <div id="ex" style="display: none">
+        <{foreach from = $notice_list item = i}>
+            <p><a href="<{$i.url}>"<{if $i.color}> style="color:<{$i.color}>"<{/if}>><{$i.name}></a></p>
+        <{/foreach}>
+        </div>
+        <div id="sm" class="clearfix" style="display: none">
+            <ul id="sm_tab">
+                <{foreach from=$search_class item=search_class1}>
+                <li s_tab="js_type_<{$search_class1.classid}>" <{if $search_class1.is_default}> class="active" default="1"<{/if}>><{$search_class1.classname}></li>
+                <{/foreach}>
+            </ul>
+        </div>
+        <div id="sb" class="clearfix">
+
+            <{foreach from=$search_class item=search_class2}>
+            <div id="js_type_<{$search_class2.classid}>" <{if $search_class2.is_default!=1}> style="display:none;"<{/if}>>
+                <div class="sw">
+                    <p id="sw_<{$search_class2.classid}>">
+                        <{foreach from=$search_keyword item=keyword}>
+                            <{if $keyword.class == $search_class2.classid}>
+                                <a href="<{$keyword.url}>"><{$keyword.name}></a>
+                            <{/if}>
+                        <{/foreach}>
+                    </p><!--/ keywords-->
+                </div>
+                <div class="sf">
+                    <form action="http://115.com/s" method="get" target="_blank">
+                        <a href="http://115.com" id="sf_label" rel="lk"><img src="static/images/s/115.gif" width="105" height="35" rel="img" /></a><input type="text" name="q" class="int" autocomplete="off" rel="kw"/><input class="searchint" type="submit" value="115聚搜" rel="btn" />
+                        <div class="ctrl">
+                        <{foreach from=$search item=row1}>
+                            <{if $row1.class == $search_class2.classid}>
+                            <label><input class="radio" type="radio" value="engine_<{$row1.id}>" name="search_select" rad="engine_<{$row1.id}>" <{if $row1.is_default}> checked="checked"<{/if}> /><{$row1.search_select}></label>
+                            <{/if}>
+                        <{/foreach}>
+ 
+                        </div>
+                    </form>
+ 
+                </div>
+<div id="weather"><script>if(top.location == self.location){document.write('<iframe width="540" height="22" frameborder="0" scrolling="no" allowtransparency="true" src="public/widget/weather/index.html"></iframe>')} </script> </div>
+            </div>
+            <{/foreach}>
+
+            <div id="suggest" style="display:none"></div>
+        </div>
+
+    </div>
+    
+
+<script type="text/javascript" src="<{$URL}>/public/home/js/config.js"></script>
+<script type="text/javascript" src="<{$URL}>/public/home/js/main.js"></script>
+<script type="text/javascript">
+    try{
+		if(window.SR){
+			SR.SearchData = {
+                <{foreach from=$search item=row2}>
+                    engine_<{$row2.id}>: {
+						action: "<{$row2.action}>",
+						name: "<{$row2.name}>",
+						btn: "<{$row2.btn}>",
+						img: ["<{$row2.img_text}>","<{$row2.img_url}>"],
+						url: "<{$row2.url}>",
+						params: {
+							<{$row2.params}>
+						}
+                    },
+                <{/foreach}>
+				none:{}
+            }	
+		}
+		
+		var sbBox = document.getElementById('sb');
+		var sbForms = sbBox.getElementsByTagName('form');
+		for(var i = 0,len = sbForms.length; i < len; i++){
+			sbForms[i].reset();
+		}
+		
+		var sbRadios = sbBox.getElementsByTagName('input');
+		var inputTxtArr = [];
+		if(sbRadios.length){
+			var setRadios = [];
+			for(var i = 0,len = sbRadios.length; i < len; i++){
+				var input = sbRadios[i];
+				if(input.getAttribute("rad") && input.checked){
+					setRadios.push(input);
+				}
+				else if(input.getAttribute("rel") == "kw"){
+					var key = inputTxtArr.push(input);
+					input.setAttribute("index",key - 1);
+					
+				}
+			}
+			try{
+			for(var i = 0,len = setRadios.length; i < len; i++){
+				var input = setRadios[i];
+				
+				SR.RadioMod.ClickRadio(input);
+			}
+			}catch(e){}
+		}
+	}catch(e){}
+    </script>
+<div class="tongji"><{$tongji}></div>
+
 </div>
-<div id="baidu"></div>
-<form action="http://www.baidu.com/s" method="get" target="_blank"><input
-	id="search" name="wd" type="text" class="int" autocomplete="off"
-	rel="kw" index="1" value="百替生物" /> <input class="searchint"
-	id="baidubb" type="submit" value="百度一下" rel="btn" /> </form>
-<ul id="t_list">
-	<!--    <li>文字文字文字文字文字</li>-->
-	<!--    <li>文字文字文字文字文字</li>-->
-	<!--    <li>文字文字文字文字文字</li>-->
-
-
-</ul>
-</div>
-
 <!-- #EndLibraryItem --> <!--<div id="content_t">--> <!--<div id="content_tp">-->
 <div id="main" style="float: right	;">
 <div id="bm"><b class="rc-tp"><b></b></b>

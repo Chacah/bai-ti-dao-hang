@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25, created on 2011-09-09 00:14:55
+<?php /* Smarty version 2.6.25, created on 2011-09-09 00:58:54
          compiled from index.tpl */ ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -44,23 +44,150 @@
 	src="static/js/header.js"></script></div>
 </div>
 </div>
-<div id="header_son">
-<div id="weather"><script>if(top.location == self.location){document.write('<iframe width="500" height="60" frameborder="0" scrolling="no" allowtransparency="true" src="public/widget/weather/index.html"></iframe>')} </script>
+<div id="wrap">
+
+        
+    <div id="search">
+        <div id="ex" style="display: none">
+        <?php $_from = $this->_tpl_vars['notice_list']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }if (count($_from)):
+    foreach ($_from as $this->_tpl_vars['i']):
+?>
+            <p><a href="<?php echo $this->_tpl_vars['i']['url']; ?>
+"<?php if ($this->_tpl_vars['i']['color']): ?> style="color:<?php echo $this->_tpl_vars['i']['color']; ?>
+"<?php endif; ?>><?php echo $this->_tpl_vars['i']['name']; ?>
+</a></p>
+        <?php endforeach; endif; unset($_from); ?>
+        </div>
+        <div id="sm" class="clearfix" style="display: none">
+            <ul id="sm_tab">
+                <?php $_from = $this->_tpl_vars['search_class']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }if (count($_from)):
+    foreach ($_from as $this->_tpl_vars['search_class1']):
+?>
+                <li s_tab="js_type_<?php echo $this->_tpl_vars['search_class1']['classid']; ?>
+" <?php if ($this->_tpl_vars['search_class1']['is_default']): ?> class="active" default="1"<?php endif; ?>><?php echo $this->_tpl_vars['search_class1']['classname']; ?>
+</li>
+                <?php endforeach; endif; unset($_from); ?>
+            </ul>
+        </div>
+        <div id="sb" class="clearfix">
+
+            <?php $_from = $this->_tpl_vars['search_class']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }if (count($_from)):
+    foreach ($_from as $this->_tpl_vars['search_class2']):
+?>
+            <div id="js_type_<?php echo $this->_tpl_vars['search_class2']['classid']; ?>
+" <?php if ($this->_tpl_vars['search_class2']['is_default'] != 1): ?> style="display:none;"<?php endif; ?>>
+                <div class="sw">
+                    <p id="sw_<?php echo $this->_tpl_vars['search_class2']['classid']; ?>
+">
+                        <?php $_from = $this->_tpl_vars['search_keyword']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }if (count($_from)):
+    foreach ($_from as $this->_tpl_vars['keyword']):
+?>
+                            <?php if ($this->_tpl_vars['keyword']['class'] == $this->_tpl_vars['search_class2']['classid']): ?>
+                                <a href="<?php echo $this->_tpl_vars['keyword']['url']; ?>
+"><?php echo $this->_tpl_vars['keyword']['name']; ?>
+</a>
+                            <?php endif; ?>
+                        <?php endforeach; endif; unset($_from); ?>
+                    </p><!--/ keywords-->
+                </div>
+                <div class="sf">
+                    <form action="http://115.com/s" method="get" target="_blank">
+                        <a href="http://115.com" id="sf_label" rel="lk"><img src="static/images/s/115.gif" width="105" height="35" rel="img" /></a><input type="text" name="q" class="int" autocomplete="off" rel="kw"/><input class="searchint" type="submit" value="115聚搜" rel="btn" />
+                        <div class="ctrl">
+                        <?php $_from = $this->_tpl_vars['search']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }if (count($_from)):
+    foreach ($_from as $this->_tpl_vars['row1']):
+?>
+                            <?php if ($this->_tpl_vars['row1']['class'] == $this->_tpl_vars['search_class2']['classid']): ?>
+                            <label><input class="radio" type="radio" value="engine_<?php echo $this->_tpl_vars['row1']['id']; ?>
+" name="search_select" rad="engine_<?php echo $this->_tpl_vars['row1']['id']; ?>
+" <?php if ($this->_tpl_vars['row1']['is_default']): ?> checked="checked"<?php endif; ?> /><?php echo $this->_tpl_vars['row1']['search_select']; ?>
+</label>
+                            <?php endif; ?>
+                        <?php endforeach; endif; unset($_from); ?>
+ 
+                        </div>
+                    </form>
+ 
+                </div>
+<div id="weather"><script>if(top.location == self.location){document.write('<iframe width="540" height="22" frameborder="0" scrolling="no" allowtransparency="true" src="public/widget/weather/index.html"></iframe>')} </script> </div>
+            </div>
+            <?php endforeach; endif; unset($_from); ?>
+
+            <div id="suggest" style="display:none"></div>
+        </div>
+
+    </div>
+    
+
+<script type="text/javascript" src="<?php echo $this->_tpl_vars['URL']; ?>
+/public/home/js/config.js"></script>
+<script type="text/javascript" src="<?php echo $this->_tpl_vars['URL']; ?>
+/public/home/js/main.js"></script>
+<script type="text/javascript">
+    try{
+		if(window.SR){
+			SR.SearchData = {
+                <?php $_from = $this->_tpl_vars['search']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }if (count($_from)):
+    foreach ($_from as $this->_tpl_vars['row2']):
+?>
+                    engine_<?php echo $this->_tpl_vars['row2']['id']; ?>
+: {
+						action: "<?php echo $this->_tpl_vars['row2']['action']; ?>
+",
+						name: "<?php echo $this->_tpl_vars['row2']['name']; ?>
+",
+						btn: "<?php echo $this->_tpl_vars['row2']['btn']; ?>
+",
+						img: ["<?php echo $this->_tpl_vars['row2']['img_text']; ?>
+","<?php echo $this->_tpl_vars['row2']['img_url']; ?>
+"],
+						url: "<?php echo $this->_tpl_vars['row2']['url']; ?>
+",
+						params: {
+							<?php echo $this->_tpl_vars['row2']['params']; ?>
+
+						}
+                    },
+                <?php endforeach; endif; unset($_from); ?>
+				none:{}
+            }	
+		}
+		
+		var sbBox = document.getElementById('sb');
+		var sbForms = sbBox.getElementsByTagName('form');
+		for(var i = 0,len = sbForms.length; i < len; i++){
+			sbForms[i].reset();
+		}
+		
+		var sbRadios = sbBox.getElementsByTagName('input');
+		var inputTxtArr = [];
+		if(sbRadios.length){
+			var setRadios = [];
+			for(var i = 0,len = sbRadios.length; i < len; i++){
+				var input = sbRadios[i];
+				if(input.getAttribute("rad") && input.checked){
+					setRadios.push(input);
+				}
+				else if(input.getAttribute("rel") == "kw"){
+					var key = inputTxtArr.push(input);
+					input.setAttribute("index",key - 1);
+					
+				}
+			}
+			try{
+			for(var i = 0,len = setRadios.length; i < len; i++){
+				var input = setRadios[i];
+				
+				SR.RadioMod.ClickRadio(input);
+			}
+			}catch(e){}
+		}
+	}catch(e){}
+    </script>
+<div class="tongji"><?php echo $this->_tpl_vars['tongji']; ?>
 </div>
-<div id="baidu"></div>
-<form action="http://www.baidu.com/s" method="get" target="_blank"><input
-	id="search" name="wd" type="text" class="int" autocomplete="off"
-	rel="kw" index="1" value="百替生物" /> <input class="searchint"
-	id="baidubb" type="submit" value="百度一下" rel="btn" /> </form>
-<ul id="t_list">
-	<!--    <li>文字文字文字文字文字</li>-->
-	<!--    <li>文字文字文字文字文字</li>-->
-	<!--    <li>文字文字文字文字文字</li>-->
 
-
-</ul>
 </div>
-
 <!-- #EndLibraryItem --> <!--<div id="content_t">--> <!--<div id="content_tp">-->
 <div id="main" style="float: right	;">
 <div id="bm"><b class="rc-tp"><b></b></b>
