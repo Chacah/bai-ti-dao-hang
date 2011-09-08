@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25, created on 2011-09-07 21:41:44
+<?php /* Smarty version 2.6.25, created on 2011-09-09 00:24:54
          compiled from topic.tpl */ ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -9,21 +9,14 @@
 " />
 <meta name="description" content="<?php echo $this->_tpl_vars['class_meta_description']; ?>
 " />
-<title>无标题文档</title>
+<title><?php echo $this->_tpl_vars['title']; ?>
+</title>
 <link href="<?php echo $this->_tpl_vars['URL']; ?>
 /css/ny.css" rel="stylesheet" type="text/css" />
 <link href="<?php echo $this->_tpl_vars['URL']; ?>
 /css/global.css" rel="stylesheet" type="text/css" />
-
 <link href="<?php echo $this->_tpl_vars['URL']; ?>
 /css/index.css" rel="stylesheet" type="text/css" />
-
-<link href="<?php echo $this->_tpl_vars['URL']; ?>
-/css/styll04.css" id="skinlink" rel="stylesheet" type="text/css" />
-<link href="<?php echo $this->_tpl_vars['URL']; ?>
-/public/home/style/new_green/base.css"
-	rel="stylesheet" type="text/css" />
-<style id="temp-css" type="text/css"></style>
 <link href="<?php echo $this->_tpl_vars['URL']; ?>
 /css/ny_swdh.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="<?php echo $this->_tpl_vars['URL']; ?>
@@ -32,25 +25,20 @@
 /public/home/js/core.js"></script>
 <script type="text/javascript">if(Cookie.get('layout')){window.location.href='kp.html';}</script>
 <base target="_blank" />
-<style>
-.mtop {
-	background: url(http://www.7find.cn/images/mbg.gif) repeat-x 0% 0%;
-	width: 100%;
-	overflow: hidden;
-}
-</style>
 </head>
 <body>
 <div id="wrapper"><!-- #BeginLibraryItem "/Library/header.lbi" -->
 <div id="header" style="font-size: 10px;">
-<p><a href="#">网站提交</a>|<a href="#">加入收藏</a>|<a href="#">设为首页</a></p>
+<p><a href="http://www.100biotech.com" title="百替生物网">返回百替</a>|<a href="#" onclick="window.external.addFavorite('<?php echo $this->_tpl_vars['URL']; ?>
+','<?php echo $this->_tpl_vars['title']; ?>
+')" title="加入收藏">加入收藏</a>|<a href="#" title="设为首页" onclick="var strHref=window.location.href;this.style.behavior='url(#default#homepage)';this.setHomePage('<?php echo $this->_tpl_vars['URL']; ?>
+');">设为首页</a></p>
 </div>
 <div id="banner">
 <div id="logo"></div>
 
 <div id="ad">
-<div id="bn2" class="fl"><script type="text/javascript"
-	src="static/js/header.js"></script></div>
+<div id="bn2" class="fl"><script type="text/javascript" src="static/js/header.js"></script></div>
 </div>
 </div>
 <div id="header_son">
@@ -60,25 +48,15 @@
 	id="search" name="wd" type="text" class="int" autocomplete="off"
 	rel="kw" index="1" value="百替生物" /> <input class="searchint"
 	id="baidubb" type="submit" value="百度一下" rel="btn" /> </form>
-<ul id="t_list">
-	<!--    <li>文字文字文字文字文字</li>-->
-	<!--    <li>文字文字文字文字文字</li>-->
-	<!--    <li>文字文字文字文字文字</li>-->
 
-	<li><?php $_from = $this->_tpl_vars['search_class']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }if (count($_from)):
-    foreach ($_from as $this->_tpl_vars['search_class2']):
-?> <?php $_from = $this->_tpl_vars['search_keyword']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }if (count($_from)):
-    foreach ($_from as $this->_tpl_vars['keyword']):
-?> <?php if ($this->_tpl_vars['keyword']['class'] == $this->_tpl_vars['search_class2']['classid']): ?> <a href="<?php echo $this->_tpl_vars['keyword']['url']; ?>
-"><?php echo $this->_tpl_vars['keyword']['name']; ?>
-</a>
-	<?php endif; ?> <?php endforeach; endif; unset($_from); ?> <?php endforeach; endif; unset($_from); ?></li>
-</ul>
 </div>
 
 <!-- #EndLibraryItem --> <!--<div id="content_t">--> <!--<div id="content_tp">-->
-
 <div id="content">
+
+<div id="content_t">
+
+	<div class="content">
     <div class="guide clearfix"><span class="location"><strong>您当前的位置：</strong><a href="<?php echo $this->_tpl_vars['URL']; ?>
 " target="_parent">导航首页</a> &raquo; 
     <?php if ($this->_tpl_vars['parent_class_name']): ?><span><?php echo $this->_tpl_vars['parent_class_name']; ?>
@@ -87,9 +65,6 @@
 </span><?php endif; ?>
     </span>
 </div>
-<div id="content_t">
-
-	<div class="content">
 		<?php $_from = $this->_tpl_vars['site_list']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }if (count($_from)):
     foreach ($_from as $this->_tpl_vars['k'] => $this->_tpl_vars['parent']):
 ?>

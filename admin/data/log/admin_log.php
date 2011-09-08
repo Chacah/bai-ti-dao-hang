@@ -1558,3 +1558,11 @@
 <?die;?>|admin|c=make_html?c=make_html|127.0.0.1|1315497426||
 <?die;?>|admin|c=make_html&action=make?c=make_html&action=make|127.0.0.1|1315497502|make=array(index=1, )|
 <?die;?>|admin|c=make_html?c=make_html|127.0.0.1|1315497508||
+<?die;?>|admin|c=make_html&action=make?c=make_html&action=make|127.0.0.1|1315498493|make=array(all=1, )|
+<?die;?>|admin|c=make_html?c=make_html|127.0.0.1|1315498515||
+<?die;?>|admin|c=make_html&action=make?c=make_html&action=make|127.0.0.1|1315498564|make=array(zhuanti=1, )|
+<?die;?>|admin|c=make_html?c=make_html|127.0.0.1|1315498570||
+<?die;?>|admin|c=make_html&action=make?c=make_html&action=make|127.0.0.1|1315499092|make=array(zhuanti=1, )|
+<?die;?>|admin|c=make_html?c=make_html|127.0.0.1|1315499098||
+<?die;?>|admin|c=make_html&action=make?c=make_html&action=make|127.0.0.1|1315499190|make=array(all=1, )|
+<?die;?>|admin|c=make_html?c=make_html|127.0.0.1|1315499209||

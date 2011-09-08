@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25, created on 2011-09-08 23:58:24
+<?php /* Smarty version 2.6.25, created on 2011-09-09 00:14:55
          compiled from index.tpl */ ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -62,7 +62,7 @@
 </div>
 
 <!-- #EndLibraryItem --> <!--<div id="content_t">--> <!--<div id="content_tp">-->
-<div id="main" style="float: right;">
+<div id="main" style="float: right	;">
 <div id="bm"><b class="rc-tp"><b></b></b>
 <ul id="bm_tab" class="clearfix">
 	<li id="bm-def" class="active" rel="fm">ÃûÕ¾µ¼º½</li>

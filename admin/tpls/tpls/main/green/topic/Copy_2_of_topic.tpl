@@ -5,26 +5,40 @@
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
 <meta name="keywords" content="<{$class_meta_keyword}>" />
 <meta name="description" content="<{$class_meta_description}>" />
-<title><{$title}></title>
+<title>无标题文档</title>
 <link href="<{$URL}>/css/ny.css" rel="stylesheet" type="text/css" />
 <link href="<{$URL}>/css/global.css" rel="stylesheet" type="text/css" />
+
 <link href="<{$URL}>/css/index.css" rel="stylesheet" type="text/css" />
+
+<link href="<{$URL}>/css/styll04.css" id="skinlink" rel="stylesheet" type="text/css" />
+<link href="<{$URL}>/public/home/style/new_green/base.css"
+	rel="stylesheet" type="text/css" />
+<style id="temp-css" type="text/css"></style>
 <link href="<{$URL}>/css/ny_swdh.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="<{$URL}>/public/home/js/base.js"></script>
 <script type="text/javascript" src="<{$URL}>/public/home/js/core.js"></script>
 <script type="text/javascript">if(Cookie.get('layout')){window.location.href='kp.html';}</script>
 <base target="_blank" />
+<style>
+.mtop {
+	background: url(http://www.7find.cn/images/mbg.gif) repeat-x 0% 0%;
+	width: 100%;
+	overflow: hidden;
+}
+</style>
 </head>
 <body>
 <div id="wrapper"><!-- #BeginLibraryItem "/Library/header.lbi" -->
 <div id="header" style="font-size: 10px;">
-<p><a href="http://www.100biotech.com" title="百替生物网">返回百替</a>|<a href="#" onclick="window.external.addFavorite('<{$URL}>','<{$title}>')" title="加入收藏">加入收藏</a>|<a href="#" title="设为首页" onclick="var strHref=window.location.href;this.style.behavior='url(#default#homepage)';this.setHomePage('<{$URL}>');">设为首页</a></p>
+<p><a href="#">网站提交</a>|<a href="#">加入收藏</a>|<a href="#">设为首页</a></p>
 </div>
 <div id="banner">
 <div id="logo"></div>
 
 <div id="ad">
-<div id="bn2" class="fl"><script type="text/javascript" src="static/js/header.js"></script></div>
+<div id="bn2" class="fl"><script type="text/javascript"
+	src="static/js/header.js"></script></div>
 </div>
 </div>
 <div id="header_son">
@@ -34,20 +48,29 @@
 	id="search" name="wd" type="text" class="int" autocomplete="off"
 	rel="kw" index="1" value="百替生物" /> <input class="searchint"
 	id="baidubb" type="submit" value="百度一下" rel="btn" /> </form>
+<ul id="t_list">
+	<!--    <li>文字文字文字文字文字</li>-->
+	<!--    <li>文字文字文字文字文字</li>-->
+	<!--    <li>文字文字文字文字文字</li>-->
 
+	<li><{foreach from=$search_class item=search_class2}> <{foreach
+	from=$search_keyword item=keyword}> <{if $keyword.class ==
+	$search_class2.classid}> <a href="<{$keyword.url}>"><{$keyword.name}></a>
+	<{/if}> <{/foreach}> <{/foreach}></li>
+</ul>
 </div>
 
 <!-- #EndLibraryItem --> <!--<div id="content_t">--> <!--<div id="content_tp">-->
+
 <div id="content">
-
-<div id="content_t">
-
-	<div class="content">
     <div class="guide clearfix"><span class="location"><strong>您当前的位置：</strong><a href="<{$URL}>" target="_parent">导航首页</a> &raquo; 
     <{if $parent_class_name}><span><{$parent_class_name}></span><{/if}>
     <{if $current_class_name}><span><{$current_class_name}></span><{/if}>
     </span>
 </div>
+<div id="content_t">
+
+	<div class="content">
 		<{foreach from = $site_list key = k item = parent}>
 	<div class="mtop">
 	<dl class="catlist">
