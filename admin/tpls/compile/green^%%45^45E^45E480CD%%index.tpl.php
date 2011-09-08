@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25, created on 2011-09-05 21:20:43
+<?php /* Smarty version 2.6.25, created on 2011-09-08 23:58:24
          compiled from index.tpl */ ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -51,26 +51,18 @@
 <form action="http://www.baidu.com/s" method="get" target="_blank"><input
 	id="search" name="wd" type="text" class="int" autocomplete="off"
 	rel="kw" index="1" value="百替生物" /> <input class="searchint"
-	id="baidubb" type="submit" value="百度一下" rel="btn" /> <input id="more"
-	name="more" type="image" src="images/btsw_19.gif" /></form>
+	id="baidubb" type="submit" value="百度一下" rel="btn" /> </form>
 <ul id="t_list">
 	<!--    <li>文字文字文字文字文字</li>-->
 	<!--    <li>文字文字文字文字文字</li>-->
 	<!--    <li>文字文字文字文字文字</li>-->
 
-	<li><?php $_from = $this->_tpl_vars['search_class']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }if (count($_from)):
-    foreach ($_from as $this->_tpl_vars['search_class2']):
-?> <?php $_from = $this->_tpl_vars['search_keyword']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }if (count($_from)):
-    foreach ($_from as $this->_tpl_vars['keyword']):
-?> <?php if ($this->_tpl_vars['keyword']['class'] == $this->_tpl_vars['search_class2']['classid']): ?> <a href="<?php echo $this->_tpl_vars['keyword']['url']; ?>
-"><?php echo $this->_tpl_vars['keyword']['name']; ?>
-</a>
-	<?php endif; ?> <?php endforeach; endif; unset($_from); ?> <?php endforeach; endif; unset($_from); ?></li>
+
 </ul>
 </div>
 
 <!-- #EndLibraryItem --> <!--<div id="content_t">--> <!--<div id="content_tp">-->
-<div id="main">
+<div id="main" style="float: right;">
 <div id="bm"><b class="rc-tp"><b></b></b>
 <ul id="bm_tab" class="clearfix">
 	<li id="bm-def" class="active" rel="fm">名站导航</li>
@@ -116,7 +108,7 @@
 </div>
 <b class="rc-bt"><b></b></b></div>
 </div>
-              <div id="hot2" style="float: right;">
+              <div id="hot2" style="float: left;">
                                 <?php echo $this->_tpl_vars['advert_notice']; ?>
 
             </div>

@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25, created on 2011-09-06 01:15:06
+<?php /* Smarty version 2.6.25, created on 2011-09-07 21:41:44
          compiled from topic.tpl */ ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -59,9 +59,7 @@
 <form action="http://www.baidu.com/s" method="get" target="_blank"><input
 	id="search" name="wd" type="text" class="int" autocomplete="off"
 	rel="kw" index="1" value="百替生物" /> <input class="searchint"
-	id="baidubb" type="submit" value="百度一下" rel="btn" /> <input id="more"
-	name="more" type="image" src="<?php echo $this->_tpl_vars['URL']; ?>
-/images/btsw_19.gif" /></form>
+	id="baidubb" type="submit" value="百度一下" rel="btn" /> </form>
 <ul id="t_list">
 	<!--    <li>文字文字文字文字文字</li>-->
 	<!--    <li>文字文字文字文字文字</li>-->
@@ -79,7 +77,16 @@
 </div>
 
 <!-- #EndLibraryItem --> <!--<div id="content_t">--> <!--<div id="content_tp">-->
+
 <div id="content">
+    <div class="guide clearfix"><span class="location"><strong>您当前的位置：</strong><a href="<?php echo $this->_tpl_vars['URL']; ?>
+" target="_parent">导航首页</a> &raquo; 
+    <?php if ($this->_tpl_vars['parent_class_name']): ?><span><?php echo $this->_tpl_vars['parent_class_name']; ?>
+</span><?php endif; ?>
+    <?php if ($this->_tpl_vars['current_class_name']): ?><span><?php echo $this->_tpl_vars['current_class_name']; ?>
+</span><?php endif; ?>
+    </span>
+</div>
 <div id="content_t">
 
 	<div class="content">

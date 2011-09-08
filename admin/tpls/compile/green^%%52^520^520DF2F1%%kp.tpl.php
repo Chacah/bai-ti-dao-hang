@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25, created on 2011-08-16 22:31:07
+<?php /* Smarty version 2.6.25, created on 2011-09-08 22:00:30
          compiled from kp.tpl */ ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -124,7 +124,7 @@
         
         
     <div id="search">
-        <div id="ex">
+        <div id="ex" style="display: none">
         <?php $_from = $this->_tpl_vars['notice_list']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }if (count($_from)):
     foreach ($_from as $this->_tpl_vars['i']):
 ?>
@@ -134,7 +134,7 @@
 </a></p>
         <?php endforeach; endif; unset($_from); ?>
         </div>
-       <div id="sm" class="clearfix">
+       <div id="sm" class="clearfix" style="display: none">
             <ul id="sm_tab">
                 <?php $_from = $this->_tpl_vars['search_class']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }if (count($_from)):
     foreach ($_from as $this->_tpl_vars['search_class1']):

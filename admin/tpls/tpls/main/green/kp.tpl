@@ -114,12 +114,12 @@
         
         
     <div id="search">
-        <div id="ex">
+        <div id="ex" style="display: none">
         <{foreach from = $notice_list item = i}>
             <p><a href="<{$i.url}>"<{if $i.color}> style="color:<{$i.color}>"<{/if}>><{$i.name}></a></p>
         <{/foreach}>
         </div>
-       <div id="sm" class="clearfix">
+       <div id="sm" class="clearfix" style="display: none">
             <ul id="sm_tab">
                 <{foreach from=$search_class item=search_class1}>
                 <li s_tab="js_type_<{$search_class1.classid}>" <{if $search_class1.is_default}> class="active" default="1"<{/if}>><{$search_class1.classname}></li>

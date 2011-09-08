@@ -43,22 +43,18 @@
 <form action="http://www.baidu.com/s" method="get" target="_blank"><input
 	id="search" name="wd" type="text" class="int" autocomplete="off"
 	rel="kw" index="1" value="百替生物" /> <input class="searchint"
-	id="baidubb" type="submit" value="百度一下" rel="btn" /> <input id="more"
-	name="more" type="image" src="images/btsw_19.gif" /></form>
+	id="baidubb" type="submit" value="百度一下" rel="btn" /> </form>
 <ul id="t_list">
 	<!--    <li>文字文字文字文字文字</li>-->
 	<!--    <li>文字文字文字文字文字</li>-->
 	<!--    <li>文字文字文字文字文字</li>-->
 
-	<li><{foreach from=$search_class item=search_class2}> <{foreach
-	from=$search_keyword item=keyword}> <{if $keyword.class ==
-	$search_class2.classid}> <a href="<{$keyword.url}>"><{$keyword.name}></a>
-	<{/if}> <{/foreach}> <{/foreach}></li>
+
 </ul>
 </div>
 
 <!-- #EndLibraryItem --> <!--<div id="content_t">--> <!--<div id="content_tp">-->
-<div id="main">
+<div id="main" style="float: right	;">
 <div id="bm"><b class="rc-tp"><b></b></b>
 <ul id="bm_tab" class="clearfix">
 	<li id="bm-def" class="active" rel="fm">名站导航</li>
@@ -94,7 +90,7 @@
 </div>
 <b class="rc-bt"><b></b></b></div>
 </div>
-              <div id="hot2" style="float: right;">
+              <div id="hot2" style="float: left;">
                 <{*名站下方广告*}>
                 <{$advert_notice}>
             </div>

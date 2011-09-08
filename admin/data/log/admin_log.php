@@ -1396,3 +1396,165 @@
 <?die;?>|admin|c=make_html?c=make_html|127.0.0.1|1315242534||
 <?die;?>|admin|c=make_html&action=make?c=make_html&action=make|127.0.0.1|1315242904|make=array(zhuanti=1, )|
 <?die;?>|admin|c=make_html?c=make_html|127.0.0.1|1315242911||
+<?die;?>|admin|c=login&a=login?c=login&a=login|127.0.0.1|1315402243|login=array(name=admin, password=***, )|
+<?die;?>|admin|c=login&a=header?c=login&a=header|127.0.0.1|1315402243||
+<?die;?>|admin|c=login&a=menu?c=login&a=menu|127.0.0.1|1315402243||
+<?die;?>|admin|c=login&a=welcome?c=login&a=welcome|127.0.0.1|1315402243||
+<?die;?>|admin|c=update&t?c=update&t|127.0.0.1|1315402244||
+<?die;?>|admin|c=login&a=menu&id=7?c=login&a=menu&id=7|127.0.0.1|1315402252||
+<?die;?>|admin|c=make_html?c=make_html|127.0.0.1|1315402252||
+<?die;?>|admin|c=make_html&action=make?c=make_html&action=make|127.0.0.1|1315402254|make=array(index=1, )|
+<?die;?>|admin|c=make_html?c=make_html|127.0.0.1|1315402261||
+<?die;?>|admin|c=make_html&action=make?c=make_html&action=make|127.0.0.1|1315402305|make=array(index=1, )|
+<?die;?>|admin|c=make_html?c=make_html|127.0.0.1|1315402311||
+<?die;?>|admin|c=make_html&action=make?c=make_html&action=make|127.0.0.1|1315402428|make=array(index=1, )|
+<?die;?>|admin|c=make_html?c=make_html|127.0.0.1|1315402434||
+<?die;?>|admin|c=make_html&action=make?c=make_html&action=make|127.0.0.1|1315402444|make=array(zhuanti=1, )|
+<?die;?>|admin|c=make_html?c=make_html|127.0.0.1|1315402449||
+<?die;?>|admin|c=make_html&action=make?c=make_html&action=make|127.0.0.1|1315402688|make=array(zhuanti=1, )|
+<?die;?>|admin|c=make_html?c=make_html|127.0.0.1|1315402693||
+<?die;?>|admin|c=login&a=login?c=login&a=login|127.0.0.1|1315402765|login=array(name=admin, password=***, )|
+<?die;?>|admin|c=login&a=header?c=login&a=header|127.0.0.1|1315402765||
+<?die;?>|admin|c=login&a=menu?c=login&a=menu|127.0.0.1|1315402765||
+<?die;?>|admin|c=login&a=welcome?c=login&a=welcome|127.0.0.1|1315402765||
+<?die;?>|admin|c=update&t?c=update&t|127.0.0.1|1315402766||
+<?die;?>|admin|c=login&a=menu&id=7?c=login&a=menu&id=7|127.0.0.1|1315402768||
+<?die;?>|admin|c=make_html?c=make_html|127.0.0.1|1315402768||
+<?die;?>|admin|c=make_html&action=make?c=make_html&action=make|127.0.0.1|1315402769|make=array(zhuanti=1, )|
+<?die;?>|admin|c=make_html?c=make_html|127.0.0.1|1315402775||
+<?die;?>|admin|c=login&a=menu&id=7?c=login&a=menu&id=7|127.0.0.1|1315402808||
+<?die;?>|admin|c=make_html?c=make_html|127.0.0.1|1315402808||
+<?die;?>|admin|c=make_html&action=make?c=make_html&action=make|127.0.0.1|1315402809|make=array(zhuanti=1, )|
+<?die;?>|admin|c=make_html?c=make_html|127.0.0.1|1315402817||
+<?die;?>|admin|c=make_html&action=make?c=make_html&action=make|127.0.0.1|1315402902|make=array(zhuanti=1, )|
+<?die;?>|admin|c=make_html?c=make_html|127.0.0.1|1315402908||
+<?die;?>|admin|c=make_html&action=make?c=make_html&action=make|127.0.0.1|1315403894|make=array(index=1, )|
+<?die;?>|admin|c=make_html?c=make_html|127.0.0.1|1315403901||
+<?die;?>|admin|c=make_html&action=make?c=make_html&action=make|127.0.0.1|1315404049|make=array(index=1, )|
+<?die;?>|admin|c=make_html?c=make_html|127.0.0.1|1315404055||
+<?die;?>|admin|c=make_html&action=make?c=make_html&action=make|127.0.0.1|1315405102|make=array(index=1, )|
+<?die;?>|admin|c=make_html?c=make_html|127.0.0.1|1315405108||
+<?die;?>|admin|c=login&a=login?c=login&a=login|127.0.0.1|1315488962|login=array(name=admin, password=***, )|
+<?die;?>|admin|c=login&a=header?c=login&a=header|127.0.0.1|1315488962||
+<?die;?>|admin|c=login&a=menu?c=login&a=menu|127.0.0.1|1315488962||
+<?die;?>|admin|c=login&a=welcome?c=login&a=welcome|127.0.0.1|1315488962||
+<?die;?>|admin|c=update&t?c=update&t|127.0.0.1|1315488963||
+<?die;?>|admin|c=login&a=menu&id=7?c=login&a=menu&id=7|127.0.0.1|1315488964||
+<?die;?>|admin|c=make_html?c=make_html|127.0.0.1|1315488964||
+<?die;?>|admin|c=make_html&action=make?c=make_html&action=make|127.0.0.1|1315488965|make=array(index=1, )|
+<?die;?>|admin|c=make_html?c=make_html|127.0.0.1|1315488973||
+<?die;?>|admin|c=make_html&action=make?c=make_html&action=make|127.0.0.1|1315489279|make=array(index=1, )|
+<?die;?>|admin|c=make_html?c=make_html|127.0.0.1|1315489285||
+<?die;?>|admin|c=make_html&action=make?c=make_html&action=make|127.0.0.1|1315489435|make=array(index=1, )|
+<?die;?>|admin|c=make_html?c=make_html|127.0.0.1|1315489441||
+<?die;?>|admin|c=make_html&action=make?c=make_html&action=make|127.0.0.1|1315489570|make=array(index=1, )|
+<?die;?>|admin|c=make_html?c=make_html|127.0.0.1|1315489576||
+<?die;?>|admin|c=make_html&action=make?c=make_html&action=make|127.0.0.1|1315489871|make=array(index=1, )|
+<?die;?>|admin|c=make_html?c=make_html|127.0.0.1|1315489878||
+<?die;?>|admin|c=make_html&action=make?c=make_html&action=make|127.0.0.1|1315490092|make=array(index=1, )|
+<?die;?>|admin|c=make_html?c=make_html|127.0.0.1|1315490098||
+<?die;?>|admin|c=make_html&action=make?c=make_html&action=make|127.0.0.1|1315490137|make=array(index=1, )|
+<?die;?>|admin|c=make_html?c=make_html|127.0.0.1|1315490144||
+<?die;?>|admin|c=make_html&action=make?c=make_html&action=make|127.0.0.1|1315490209|make=array(index=1, )|
+<?die;?>|admin|c=make_html?c=make_html|127.0.0.1|1315490215||
+<?die;?>|admin|c=make_html&action=make?c=make_html&action=make|127.0.0.1|1315490231|make=array(index=1, )|
+<?die;?>|admin|c=make_html?c=make_html|127.0.0.1|1315490237||
+<?die;?>|admin|c=make_html&action=make?c=make_html&action=make|127.0.0.1|1315490254|make=array(index=1, )|
+<?die;?>|admin|c=make_html?c=make_html|127.0.0.1|1315490261||
+<?die;?>|admin|c=make_html&action=make?c=make_html&action=make|127.0.0.1|1315490428|make=array(index=1, )|
+<?die;?>|admin|c=make_html?c=make_html|127.0.0.1|1315490434||
+<?die;?>|admin|c=make_html&action=make?c=make_html&action=make|127.0.0.1|1315490617|make=array(index=1, )|
+<?die;?>|admin|c=make_html?c=make_html|127.0.0.1|1315490623||
+<?die;?>|admin|c=make_html&action=make?c=make_html&action=make|127.0.0.1|1315490744|make=array(index=1, )|
+<?die;?>|admin|c=make_html?c=make_html|127.0.0.1|1315490750||
+<?die;?>|admin|c=make_html&action=make?c=make_html&action=make|127.0.0.1|1315490984|make=array(index=1, )|
+<?die;?>|admin|c=make_html?c=make_html|127.0.0.1|1315490990||
+<?die;?>|admin|c=make_html&action=make?c=make_html&action=make|127.0.0.1|1315491151|make=array(index=1, )|
+<?die;?>|admin|c=make_html?c=make_html|127.0.0.1|1315491157||
+<?die;?>|admin|c=login&a=menu&id=9?c=login&a=menu&id=9|127.0.0.1|1315492563||
+<?die;?>|admin|c=login&a=menu&id=9?c=login&a=menu&id=9|127.0.0.1|1315492565||
+<?die;?>|admin|c=login&a=login?c=login&a=login|127.0.0.1|1315492583|login=array(name=admin, password=***, )|
+<?die;?>|admin|c=login&a=header?c=login&a=header|127.0.0.1|1315492583||
+<?die;?>|admin|c=login&a=menu?c=login&a=menu|127.0.0.1|1315492583||
+<?die;?>|admin|c=login&a=welcome?c=login&a=welcome|127.0.0.1|1315492583||
+<?die;?>|admin|c=update&t?c=update&t|127.0.0.1|1315492583||
+<?die;?>|admin|c=login&a=menu&id=9?c=login&a=menu&id=9|127.0.0.1|1315492587||
+<?die;?>|admin|c=search_class?c=search_class|127.0.0.1|1315492588||
+<?die;?>|admin|c=search?c=search|127.0.0.1|1315492591||
+<?die;?>|admin|c=search_keyword?c=search_keyword|127.0.0.1|1315492597||
+<?die;?>|admin|c=search?c=search|127.0.0.1|1315492599||
+<?die;?>|admin|c=search_class?c=search_class|127.0.0.1|1315492605||
+<?die;?>|admin|c=search?c=search|127.0.0.1|1315492608||
+<?die;?>|admin|c=search&classid=8?c=search&classid=8|127.0.0.1|1315492610||
+<?die;?>|admin|c=search&a=search_operate?c=search&a=search_operate|127.0.0.1|1315492616|referer=?c=search, classid=8, sort=array(29=1, 33=2, 14=3, 39=3, 27=4, 38=100, )is_default=29, is_show=array(0=***, 1=33, 2=14, 3=27, 4=38, )id=array(0=***, )Submit3= Ìá½»ÐÞ¸Ä , |
+<?die;?>|admin|c=search_class?c=search_class|127.0.0.1|1315492619||
+<?die;?>|admin|c=search&classid=8?c=search&classid=8|127.0.0.1|1315492619||
+<?die;?>|admin|c=search&classid=2?c=search&classid=2|127.0.0.1|1315492621||
+<?die;?>|admin|c=search&classid=12?c=search&classid=12|127.0.0.1|1315492623||
+<?die;?>|admin|c=make_html&action=make?c=make_html&action=make|127.0.0.1|1315492644|make=array(index=1, )|
+<?die;?>|admin|c=make_html?c=make_html|127.0.0.1|1315492650||
+<?die;?>|admin|c=make_html&action=make?c=make_html&action=make|127.0.0.1|1315492837|make=array(index=1, )|
+<?die;?>|admin|c=make_html?c=make_html|127.0.0.1|1315492843||
+<?die;?>|admin|c=make_html&action=make?c=make_html&action=make|127.0.0.1|1315493006|make=array(index=1, )|
+<?die;?>|admin|c=make_html?c=make_html|127.0.0.1|1315493012||
+<?die;?>|admin|c=login&a=login?c=login&a=login|127.0.0.1|1315493124|login=array(name=admin, password=***, )|
+<?die;?>|admin|c=login&a=header?c=login&a=header|127.0.0.1|1315493124||
+<?die;?>|admin|c=login&a=menu?c=login&a=menu|127.0.0.1|1315493124||
+<?die;?>|admin|c=login&a=welcome?c=login&a=welcome|127.0.0.1|1315493124||
+<?die;?>|admin|c=update&t?c=update&t|127.0.0.1|1315493124||
+<?die;?>|admin|c=login&a=menu&id=7?c=login&a=menu&id=7|127.0.0.1|1315493126||
+<?die;?>|admin|c=make_html?c=make_html|127.0.0.1|1315493126||
+<?die;?>|admin|c=make_html&action=make?c=make_html&action=make|127.0.0.1|1315493128|make=array(index=1, )|
+<?die;?>|admin|c=make_html?c=make_html|127.0.0.1|1315493135||
+<?die;?>|admin|c=make_html&action=make?c=make_html&action=make|127.0.0.1|1315493208|make=array(index=1, )|
+<?die;?>|admin|c=make_html?c=make_html|127.0.0.1|1315493215||
+<?die;?>|admin|c=make_html&action=make?c=make_html&action=make|127.0.0.1|1315493238|make=array(index=1, )|
+<?die;?>|admin|c=make_html?c=make_html|127.0.0.1|1315493245||
+<?die;?>|admin|c=make_html&action=make?c=make_html&action=make|127.0.0.1|1315493280|make=array(index=1, )|
+<?die;?>|admin|c=make_html?c=make_html|127.0.0.1|1315493286||
+<?die;?>|admin|c=make_html&action=make?c=make_html&action=make|127.0.0.1|1315493347|make=array(index=1, )|
+<?die;?>|admin|c=make_html?c=make_html|127.0.0.1|1315493353||
+<?die;?>|admin|c=make_html&action=make?c=make_html&action=make|127.0.0.1|1315493461|make=array(index=1, )|
+<?die;?>|admin|c=make_html?c=make_html|127.0.0.1|1315493467||
+<?die;?>|admin|c=make_html&action=make?c=make_html&action=make|127.0.0.1|1315493562|make=array(index=1, )|
+<?die;?>|admin|c=make_html?c=make_html|127.0.0.1|1315493568||
+<?die;?>|admin|c=login&a=login?c=login&a=login|127.0.0.1|1315493856|login=array(name=admin, password=***, )|
+<?die;?>|admin|c=login&a=header?c=login&a=header|127.0.0.1|1315493856||
+<?die;?>|admin|c=login&a=menu?c=login&a=menu|127.0.0.1|1315493856||
+<?die;?>|admin|c=login&a=welcome?c=login&a=welcome|127.0.0.1|1315493856||
+<?die;?>|admin|c=update&t?c=update&t|127.0.0.1|1315493856||
+<?die;?>|admin|c=login&a=menu&id=7?c=login&a=menu&id=7|127.0.0.1|1315493858||
+<?die;?>|admin|c=make_html?c=make_html|127.0.0.1|1315493858||
+<?die;?>|admin|c=make_html&action=make?c=make_html&action=make|127.0.0.1|1315493859|make=array(index=1, )|
+<?die;?>|admin|c=make_html?c=make_html|127.0.0.1|1315493865||
+<?die;?>|admin|c=make_html&action=make?c=make_html&action=make|127.0.0.1|1315494054|make=array(index=1, )|
+<?die;?>|admin|c=make_html?c=make_html|127.0.0.1|1315494060||
+<?die;?>|admin|c=make_html&action=make?c=make_html&action=make|127.0.0.1|1315494085|make=array(index=1, )|
+<?die;?>|admin|c=make_html?c=make_html|127.0.0.1|1315494091||
+<?die;?>|admin|c=make_html&action=make?c=make_html&action=make|127.0.0.1|1315494154|make=array(index=1, )|
+<?die;?>|admin|c=make_html?c=make_html|127.0.0.1|1315494160||
+<?die;?>|admin|c=make_html&action=make?c=make_html&action=make|127.0.0.1|1315494394|make=array(index=1, )|
+<?die;?>|admin|c=make_html?c=make_html|127.0.0.1|1315494401||
+<?die;?>|admin|c=make_html&action=make?c=make_html&action=make|127.0.0.1|1315494541|make=array(index=1, )|
+<?die;?>|admin|c=make_html?c=make_html|127.0.0.1|1315494547||
+<?die;?>|admin|c=login&a=login?c=login&a=login|127.0.0.1|1315496133|login=array(name=admin, password=***, )|
+<?die;?>|admin|c=login&a=header?c=login&a=header|127.0.0.1|1315496134||
+<?die;?>|admin|c=login&a=menu?c=login&a=menu|127.0.0.1|1315496134||
+<?die;?>|admin|c=login&a=welcome?c=login&a=welcome|127.0.0.1|1315496134||
+<?die;?>|admin|c=update&t?c=update&t|127.0.0.1|1315496134||
+<?die;?>|admin|c=login&a=menu&id=7?c=login&a=menu&id=7|127.0.0.1|1315496135||
+<?die;?>|admin|c=make_html?c=make_html|127.0.0.1|1315496135||
+<?die;?>|admin|c=make_html&action=make?c=make_html&action=make|127.0.0.1|1315496136|make=array(index=1, )|
+<?die;?>|admin|c=make_html?c=make_html|127.0.0.1|1315496143||
+<?die;?>|admin|c=make_html&action=make?c=make_html&action=make|127.0.0.1|1315496653|make=array(index=1, )|
+<?die;?>|admin|c=make_html?c=make_html|127.0.0.1|1315496660||
+<?die;?>|admin|c=make_html&action=make?c=make_html&action=make|127.0.0.1|1315496707|make=array(index=1, )|
+<?die;?>|admin|c=make_html?c=make_html|127.0.0.1|1315496714||
+<?die;?>|admin|c=make_html&action=make?c=make_html&action=make|127.0.0.1|1315497026|make=array(index=1, )|
+<?die;?>|admin|c=make_html?c=make_html|127.0.0.1|1315497032||
+<?die;?>|admin|c=make_html&action=make?c=make_html&action=make|127.0.0.1|1315497352|make=array(index=1, )|
+<?die;?>|admin|c=make_html?c=make_html|127.0.0.1|1315497358||
+<?die;?>|admin|c=make_html&action=make?c=make_html&action=make|127.0.0.1|1315497419|make=array(index=1, )|
+<?die;?>|admin|c=make_html?c=make_html|127.0.0.1|1315497426||
+<?die;?>|admin|c=make_html&action=make?c=make_html&action=make|127.0.0.1|1315497502|make=array(index=1, )|
+<?die;?>|admin|c=make_html?c=make_html|127.0.0.1|1315497508||

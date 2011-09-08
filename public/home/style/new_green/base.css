@@ -157,7 +157,7 @@ a { text-decoration:none; color:#000; cursor:pointer;}
 	#main { float:left; padding: 10px 0 5px 18px; width:620px;}
 		#bm .rc-tp { z-index:9;}
 		#bm li,#tool-tab li { background-position:right 0;color:#58a119;}
-		#bm li{ cursor:pointer; height:28px; line-height:28px; width:75px; text-align:center;}
+		#bm li{ cursor:pointer; height:28px; line-height:28px; width:65px; text-align:center;}
 		#bm li.active,#tool-tab li.active{position:relative; margin:0 0 -1px -1px; font-weight:bold; }
 		#bm li.active { width:76px; height:29px; background-position:0 -644px; }
 		#bm li#bm-def.active { width:75px; margin-left:0;background-position:right -28px;}
