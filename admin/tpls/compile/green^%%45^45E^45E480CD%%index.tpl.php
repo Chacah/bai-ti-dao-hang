@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25, created on 2011-09-09 00:58:54
+<?php /* Smarty version 2.6.25, created on 2011-09-09 01:16:30
          compiled from index.tpl */ ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -110,6 +110,8 @@
  
                 </div>
 <div id="weather"><script>if(top.location == self.location){document.write('<iframe width="540" height="22" frameborder="0" scrolling="no" allowtransparency="true" src="public/widget/weather/index.html"></iframe>')} </script> </div>
+                     <li class="date"><script type="text/javascript">document.write(Calendar.day());</script> </li>
+                    <li class="lcal"><script type="text/javascript">document.write(Calendar.cnday());</script> </li>
             </div>
             <?php endforeach; endif; unset($_from); ?>
 

@@ -80,6 +80,8 @@
  
                 </div>
 <div id="weather"><script>if(top.location == self.location){document.write('<iframe width="540" height="22" frameborder="0" scrolling="no" allowtransparency="true" src="public/widget/weather/index.html"></iframe>')} </script> </div>
+                     <li class="date"><script type="text/javascript">document.write(Calendar.day());</script> </li>
+                    <li class="lcal"><script type="text/javascript">document.write(Calendar.cnday());</script> </li>
             </div>
             <{/foreach}>
 
